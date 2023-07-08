@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="mainBody">
+        <div class="search">
+            <input type="text" class="search-bar" placeholder= "Enter the City name....">
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+            <button1><i class="fa-solid fa-location-dot"></i></button1>
+        </div>
+
+        <div class="weather loading">
+            <h2 class="city">Weather</h2>
+            <h1 class="temp">0°</h1>
+            <div class="description_icon">
+                <img src="https://openweathermap.org/img/wn/01n.png" alt="" class="icon" />
+                <div class="description">cloudy</div>
+            </div>
+            <div class="Humidity">Humidity :0 %</div>
+            <div class="wind">0 km/h</div>
+
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>

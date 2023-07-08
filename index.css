@@ -1,0 +1,76 @@
+body {
+    margin: 0px;
+    height: 100vh;
+    background-image: url('https://source.unsplash.com/1600x900/?landscape');
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainBody {
+    background: #050005d0;
+    color: white;
+    opacity: 0.8;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 500px;
+    padding-top: 2em;
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    border-radius: 20px;
+}
+
+button {
+    border-radius: 50%;
+    height: 3em;
+    width: 3em;
+    border: none;
+    background: none;
+    color: white;
+    cursor: pointer;
+    margin-left: 2px;
+    margin-right: 2px;
+    transition: auto;
+
+}
+
+input.search-bar {
+    border: none;
+    outline: none;
+    border-radius: 24px;
+    background: rgba(118, 115, 115, 0.5);
+    color: white;
+    height: 40px;
+    width: 20em;
+    font-size: 130%;
+}
+
+.weather{
+    padding: 1em;
+}
+
+.temp {
+    margin-bottom: 0.2em;
+}
+
+.description {
+    text-transform: capitalize;
+    font-size: large;
+}
+.description_icon{
+    display:flex;
+    align-items: center;
+
+}
+.loading{
+    visibility: hidden;
+    max-height: 60px;
+    position: relative;
+}
+::placeholder{
+    color: white;
+}
